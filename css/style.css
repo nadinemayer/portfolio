@@ -1,0 +1,180 @@
+.chamada {
+    background-image: url(../img/bd.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    background-color: #d2f8f5;
+}
+
+.nuvem1 {
+    width: 200px;
+    height: 100px;
+    background-color: white;
+}
+
+.titulo-subtitulo__chamada {
+    width: 30%;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 100px;
+}
+
+.titulo__chamada {
+    font-family: 'Sacramento', cursive;
+    font-size: 70px;
+    color: rgb(52, 184, 184);
+}
+
+.subtitulo__chamada {
+    font-family: 'Noto Serif Toto', serif;
+    color: rgb(52, 184, 184);
+    padding-top: 50px;
+    font-size: 20px;
+}
+
+.apresentacao {
+    margin-top: 50px;
+    margin-bottom: 150px;
+
+}
+
+.container__apresentacao {
+    display: flex;
+    width: 600px;
+    height: 250px;
+    margin: 0 auto;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.foto__apresentacao {
+    width: 150px;
+    height: 150px;
+    background-image: url(../img/IMG_0225.jpg);
+    background-size: cover;
+    border-radius: 100%;
+    background-position-y: -8px;
+}
+
+.container__titulo-subtitulo {
+    text-align: center;
+    margin: 15px 0;
+}
+
+.titulo-principal {
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    color: rgb(52, 184, 184);
+    font-size: 30px;
+    padding-bottom: 35px;
+}
+
+.subtitulo__apresentacao {
+    font-family: 'Noto Serif Toto', serif;
+    font-size: 14px;
+}
+
+.container__web-development {
+    padding-left: 250px;
+    width: 730px;
+    display: flex;
+    align-items: start;
+    padding-top: 40px;
+}
+
+.web-development__imagem {
+    margin-right: 30px;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.web-development__imagem img {
+    width: 100%;
+}
+
+.web-development__descricao {
+    width: 490px;
+}
+
+.web-development__descricao h3 {
+    color: rgb(52, 184, 184);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 540;
+}
+
+.web-development__descricao h4 {
+    padding-top: 30px;
+    color: rgb(0, 0, 0);
+    font-family: 'Noto Serif Toto', serif;
+    font-weight: 300;
+    font-size: 14px;
+}
+
+.container__contact-me {
+    margin: 0 auto;
+    width: 500px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.contact-me {
+    margin-top: 150px;
+    margin-bottom: 70px;
+}
+
+.titulo-principal.a {
+    padding-bottom: 70px;
+}
+
+.botao__contact-me {
+    text-transform: uppercase;
+    margin-top: 30px;
+    width: 140px;
+    height: 45px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 11px;
+    letter-spacing: 2.5px;
+    font-weight: 500;
+    color: #000;
+    background-color: rgb(207, 129, 231);
+    border: none;
+    border-radius: 45px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    outline: none;
+}
+
+.botao__contact-me:hover {
+    background-color: rgb(52, 184, 184);
+    box-shadow: 0px 15px 20px #d2f8f5;
+    color: #000000;
+    transform: translateY(-7px);
+}
+
+.rodape {
+    height: 150px;
+    background-color: #d2f8f5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.links__rodape {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    width: 30%;
+    margin-top: 30px;
+    font-family: 'Noto Serif Toto', serif;
+    color: rgb(52, 184, 184);
+}
+
+.creditos__rodape {
+    margin-top: 50px;
+    color: white;
+    text-shadow: 0 0 0.2em #87F, 0 0 0.2em #87F, 0 0 0.2em #87F;
+}
